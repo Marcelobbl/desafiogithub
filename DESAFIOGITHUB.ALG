@@ -54,6 +54,10 @@ Inicio
                  fimse
            fimpara
       fimpara
+      
+      para i de 0 ate qtd_clientes - 1 faca
+           escreval(vet_nome[i], ", ", vet_telefone[i], ", Tipo ", vet_tipo[i], ", Minutos: ", vet_minutos[i], ", Conta = R$ ", vet_conta[i]:4:2 )
+      fimpara
 
 
 Fimalgoritmo
