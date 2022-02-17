@@ -27,6 +27,16 @@ Inicio
            leia(vet_minutos[i])
            escreval
       fimpara
+      
+      escreval
+      escreval("Informe o preco basico e excedente de cada tipo de conta: ")
+
+      para m de 0 ate 2 faca
+           escreval("Tipo ", n, ":")
+           para n de 0 ate 1 faca
+                leia(mat[m, n])
+           fimpara
+      fimpara
 
 
 Fimalgoritmo
