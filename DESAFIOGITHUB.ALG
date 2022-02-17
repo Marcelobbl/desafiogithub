@@ -37,6 +37,23 @@ Inicio
                 leia(mat[m, n])
            fimpara
       fimpara
+      
+
+      escreval
+      escreva("RELATÓRIO DE CLIENTES:")
+      escreval
+
+      para i de 0 ate qtd_clientes - 1 faca
+           para m de 0 ate 2 faca
+                se vet_tipo[i] = m entao
+                   se vet_minutos[i] <= 90 entao
+                      vet_conta[i] <- mat[m, 0]
+                   senao
+                        vet_conta[i] <- mat[m, 0] + mat[m, 1] * (vet_minutos[i] - 90)
+                   fimse
+                 fimse
+           fimpara
+      fimpara
 
 
 Fimalgoritmo
